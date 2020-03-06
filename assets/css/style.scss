@@ -9,6 +9,33 @@
   }
 }
 
+#header {
+  height: 56px;
+  
+  nav {
+    background: none;
+    
+    li a {
+      border: none;
+      background: none;
+      border-radius: 0;
+      font-size: 32px;
+      line-height: 1em;
+      padding: 0 8px;
+      
+      &:hover {
+        background: none;
+        border: none;
+        box-shadow: none;
+        
+        .fab {
+          color: #fc0;
+        }
+      }
+    }
+  }
+}
+
 blockquote {
   color: #999;
 }
